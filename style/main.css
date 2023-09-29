@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: #00C2FF;
+    width: 1080px;
+    height: 1920px;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.name {
+    font-family: Blippo, fantasy;
+    font-weight: 900;
+    text-shadow: 10px 0 3px black;
+    font-size: 150px;
+}
