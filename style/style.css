@@ -4,3 +4,7 @@
     text-shadow: 3px 0 3px black;
     font-size: 100px;
 }
+
+#mario {
+    position: relative; width: 60%; right: 500px
+}
