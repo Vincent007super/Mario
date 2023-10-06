@@ -6,5 +6,5 @@
 }
 
 #mario {
-    width: 60%;
+    position: relative; width: 60%; right: 500px
 }
