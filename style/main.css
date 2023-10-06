@@ -7,9 +7,3 @@ body {
     overflow-y: hidden;
 }
 
-.name {
-    font-family: Blippo, fantasy;
-    font-weight: 100;
-    text-shadow: 1px 0 3px black;
-    font-size: 100px;
-}
