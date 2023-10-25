@@ -5,9 +5,20 @@
     font-size: 100px;
 }
 
-<<<<<<< HEAD
-#cloudWra
-=======
+#mario {
+    position: absolute; width: 850px;
+}
+
+#block {
+    position: relative; width: 425px;
+}
+
+#blockFiller {
+    width: 10%;
+}
+
+/*wrappers*/
+
 #wrapper1 {
     display: flex;
     justify-content: center;
@@ -17,12 +28,10 @@
     height: 400px;
 }
 
->>>>>>> 97d13788afcccd99b0187a12817c439ff72879cd
-#mario {
-    position: absolute; width: 850px;
-}
-
-#block {
-    position: relative; top: 300px; width: 10;
-    opacity: 0.7;
+#wrapper2 {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 41vh;
+    justify-content: left;
 }
