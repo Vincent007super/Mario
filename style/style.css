@@ -5,8 +5,17 @@
     font-size: 100px;
 }
 
+#wrapper1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 1080px;
+    height: 400px;
+}
+
 #mario {
-    position: relative; width: 60%; left: 200px; top : 300px;
+    position: absolute; width: 850px;
 }
 
 #block {
