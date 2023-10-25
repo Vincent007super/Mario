@@ -5,9 +5,21 @@
     font-size: 100px;
 }
 
+<<<<<<< HEAD
 #cloudWra
+=======
+#wrapper1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 1080px;
+    height: 400px;
+}
+
+>>>>>>> 97d13788afcccd99b0187a12817c439ff72879cd
 #mario {
-    position: relative; width: 60%; left: 200px; top : 300px;
+    position: absolute; width: 850px;
 }
 
 #block {
