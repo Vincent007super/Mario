@@ -1,16 +1,14 @@
-.name {
-    font-family: Blippo, fantasy;
-    font-weight: 70;
-    text-shadow: 3px 0 3px black;
-    font-size: 100px;
+#mario {
+    position: absolute; width: 250px; top: 1400px; right: 820px;
+    rotate: 270deg;
 }
 
-#mario {
-    position: absolute; width: 850px;
+#marioText {
+    position: absolute; width: 850px 
 }
 
 #block {
-    position: relative; width: 425px; bottom: 280px;
+    width: 425px;
     opacity: 0.6;
 }
 
@@ -18,6 +16,44 @@
     width: 10%;
 }
 
+#gras {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+main {
+position: fixed;
+display: flex;
+justify-content: center;
+top: 0;
+height: 100vh;
+width: 100vw;
+}
+
+#quiz {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 50%;
+    z-index: 5;
+}
+
+.answerColumn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 5%;
+}
+
+.answerRow {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
 /*wrappers*/
 
 #wrapper1 {
@@ -31,8 +67,25 @@
 
 #wrapper2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+#wrapper3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 72%;
     width: 100%;
-    position: fixed;
-    top: 41vh;
-    justify-content: left;
+    gap: 5%;
+}
+
+#wrapper4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35%;
 }
