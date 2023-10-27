@@ -24,11 +24,16 @@
 }
 
 #gras {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
+    position: relative;
+    height: 2400px;
+    width: 2500px;
+    top: 1200px;
+    right: 730px;
+    background-color: #8df174;
     border-radius: 50%;
     display: inline-block;
+    
+    filter: blur(9px);
   }
 /*wrappers*/
 
