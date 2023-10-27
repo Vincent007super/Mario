@@ -1,14 +1,10 @@
-.name {
-    font-family: Blippo, fantasy;
-    font-weight: 70;
-    text-shadow: 3px 0 3px black;
-    font-size: 100px;
-}
+/*animation*/
 
 #mario {
     position: absolute; width: 250px; top: 1400px; right: 820px;
     rotate: 270deg;
 }
+
 
 #marioText {
     position: relative; width: 850px; z-index:50 ;
@@ -16,6 +12,7 @@
     
 }
 
+/*block*/
 #block {
     position: relative; width: 425px; bottom: 280px; right: 80px;
     opacity: 0.6;
@@ -24,6 +21,8 @@
 #blockFiller {
     width: 10%;
 }
+/*block*/
+
 /*clouds*/
 #cloudBulk{
 background-color: white;
@@ -80,6 +79,8 @@ border-radius: 50%;
     }
 
     /*clouds*/
+
+    /*gras*/
 #gras {
     position: relative;
     height: 2400px;
@@ -92,6 +93,9 @@ border-radius: 50%;
     
     filter: blur(9px);
   }
+
+    /*gras*/
+    
 /*wrappers*/
 
 #wrapper1 {
