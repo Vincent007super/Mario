@@ -6,13 +6,13 @@
 
 #animation{
 position: relative;
-animation: MarioAnimation 8s delay iteration-count direction fill-mode;
+animation: MarioAnimation 8s 1s iteration-count direction fill-mode;
 }
 
 @keyframes MarioAnimation{
 
-    0% {left: width: 250px; top: 1400px; right: 820px;}
-    100% {left: width: 250px; top: 1400px; right: 1500px;}
+    0% { width: 250px; top: 1400px; right: 820px;}
+    100% {width: 250px; top: 1400px; right: 1500px;}
 }
 
 #marioText {
