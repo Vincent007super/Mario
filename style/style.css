@@ -1,5 +1,4 @@
 /*animation*/
-
 #mario {
     position: absolute; width: 250px; top: 1400px; right: 820px;
     rotate: 270deg;
@@ -95,7 +94,7 @@ border-radius: 50%;
   }
 
     /*gras*/
-    
+
 /*wrappers*/
 
 #wrapper1 {
