@@ -1,0 +1,38 @@
+.name {
+    font-family: Blippo, fantasy;
+    font-weight: 70;
+    text-shadow: 3px 0 3px black;
+    font-size: 100px;
+}
+
+#mario {
+    position: absolute; width: 850px;
+}
+
+#block {
+    position: relative; width: 425px; bottom: 280px;
+    opacity: 0.6;
+}
+
+#blockFiller {
+    width: 10%;
+}
+
+/*wrappers*/
+
+#wrapper1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 1080px;
+    height: 400px;
+}
+
+#wrapper2 {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 41vh;
+    justify-content: left;
+}
