@@ -10,7 +10,8 @@
 }
 
 #block {
-    position: relative; width: 425px;
+    position: relative; width: 425px; bottom: 280px;
+    opacity: 0.6;
 }
 
 #blockFiller {
