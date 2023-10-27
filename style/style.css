@@ -1,19 +1,18 @@
-.name {
-    font-family: Blippo, fantasy;
-    font-weight: 70;
-    text-shadow: 3px 0 3px black;
-    font-size: 100px;
-}
+/*animation*/
 
 #mario {
     position: absolute; width: 250px; top: 1400px; right: 820px;
     rotate: 270deg;
 }
 
+
 #marioText {
-    position: absolute; width: 850px 
+    position: relative; width: 850px; z-index:50 ;
+    opacity: 0.86;
+    
 }
 
+/*block*/
 #block {
     position: relative; width: 425px; bottom: 280px; right: 80px;
     opacity: 0.6;
@@ -22,12 +21,71 @@
 #blockFiller {
     width: 10%;
 }
+/*block*/
 
+/*clouds*/
+#cloudBulk{
+background-color: white;
+display: inline-block;
+position: relative;
+width: 1080px;
+height: 370px;
+bottom: 400px;
+opacity: ;
+}
+
+#cloud1{
+background-color: white;
+display:inline-block;
+position: relative;
+width: 420px;
+height: 130px;
+bottom: 570px;
+right: 10px;
+border-radius: 50%;
+}
+
+#cloud2{
+background-color: white;
+display:inline-block;
+position: relative;
+width: 420px;
+height: 230px;
+bottom: 540px;
+right: 90px;
+border-radius: 50%;
+}
+
+#cloud3{
+background-color: white;
+display:inline-block;
+position: relative;
+width: 420px;
+height: 170px;
+bottom: 740px;
+left: 660px;
+border-radius: 50%;
+}
+
+#cloud4{
+    background-color: white;
+    display:inline-block;
+    position: relative;
+    width: 230px;
+    height: 150px;
+    bottom: 680px;
+    right: 190px;
+    border-radius: 50%;
+    }
+
+    /*clouds*/
+
+    /*gras*/
 #gras {
     position: relative;
     height: 2400px;
     width: 2500px;
-    top: 1200px;
+    top: 420px;
     right: 730px;
     background-color: #8df174;
     border-radius: 50%;
@@ -35,6 +93,9 @@
     
     filter: blur(9px);
   }
+
+    /*gras*/
+    
 /*wrappers*/
 
 #wrapper1 {
