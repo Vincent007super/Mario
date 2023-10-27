@@ -6,7 +6,7 @@
 }
 
 #mario {
-    position: absolute; width: 250px; top: 1500px; right: 820px;
+    position: absolute; width: 250px; top: 1400px; right: 820px;
     rotate: 270deg;
 }
 
@@ -23,6 +23,13 @@
     width: 10%;
 }
 
+#gras {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
 /*wrappers*/
 
 #wrapper1 {
